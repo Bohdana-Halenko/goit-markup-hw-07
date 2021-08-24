@@ -177,17 +177,26 @@
   }
 }
 
-.modal-policy .modal-policy .modal-policy__icon {
+.modal-policy {
   content: "";
   width: 16px;
   height: 15px;
   border: 2px solid $title-text-color;
   border-radius: 2px;
   cursor: pointer;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms $time-function;
+  &__icon {
+    content: "";
+    width: 16px;
+    height: 15px;
+    border: 2px solid $title-text-color;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 250ms $time-function;
+  }
 }
 .modal-policy__checkbox:checked + .modal-policy__icon {
-  background-image: url(../images/icon-check.svg);
+  background-image: url(./images/icon-check.svg);
   background-size: cover;
   background-color: $accent-color;
   transform: scale(1.2);
