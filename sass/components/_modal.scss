@@ -188,8 +188,8 @@
     background-image: url(./images/icon-check.svg);
   }
 }
-.modal-policy__checkbox:checked + .modal-policy {
-  background-image: url(./images/icon-check.svg);
+.modal-policy__checkbox:checked + .modal-policy__icon {
+  background-image: url(../images/icon-check.svg);
   background-size: cover;
   background-color: $accent-color;
   transform: scale(1.2);
