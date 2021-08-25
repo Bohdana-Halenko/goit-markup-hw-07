@@ -153,7 +153,7 @@
     height: 15px;
     border: 2px solid $title-text-color;
     border-radius: 2px;
-    background-image: url(../images/icon-check.svg);
+    background-image: url(./images/icon-check.svg);
   }
   &__checkbox {
     position: absolute;
@@ -185,7 +185,7 @@
 }
 
 .modal-policy__checkbox:checked + .modal-policy__icon {
-  background-image: url(../images/icon-check.svg);
+  background-image: url(./images/icon-check.svg);
   background-size: cover;
   border: none;
 }
